@@ -20,7 +20,7 @@
 ### Usage Guide
 1. Compilation: Compile the source code using g++:
 >Bash
-g++ -o chat_server main.cpp
+g++ -o chat_server chat_server_poll.cpp
 ./chat_server
 
 2. Testing with Telnet: Open a new terminal and connect to the server:
